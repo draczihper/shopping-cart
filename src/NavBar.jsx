@@ -1,16 +1,18 @@
+import { Link } from "react-router";
+
 const NavBar = () => {
   return (
     <>
       <nav>
         <ul>
           <li>
-            <a href="Home">HOME</a>
+            <Link to='Home'>Home</Link>
           </li>
           <li>
-            <a href="Shop">SHOP</a>
+            <Link to='Shop'>Shop</Link>
           </li>
           <li>
-            <a href="Cart">CART</a>
+            <Link to='Cart'>Cart</Link>
           </li>
         </ul>
       </nav>
