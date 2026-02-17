@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link, Outlet } from "react-router";
 
 const NavBar = () => {
   return (
@@ -16,6 +16,7 @@ const NavBar = () => {
           </li>
         </ul>
       </nav>
+      <Outlet />
     </>
   );
 };
