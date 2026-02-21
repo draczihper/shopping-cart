@@ -1,19 +1,21 @@
-import React from 'react';
-import { createRoot } from 'react-dom/client';
-import { BrowserRouter, Route } from 'react-router';
+import { BrowserRouter, Routes, Route } from 'react-router';
 import './App.css'
+import NavBar from './NavBar';
+import Home from "./Home"
+import Shop from "./Shop"
+import Cart from "./Cart"
 
 
 const App = () => {
 
   return (
     <BrowserRouter>
+      <NavBar />
+
       <Routes> 
-        <Route element={<Layout/>}> 
-          <Route path='/' element={<Home />}/>
-          <Route path='Shop' element={<Shop />}/>
-          <Route path='Cart' element={<Cart />}/>
-        </Route>
+          <Route path='/Home' element={<Home />}/>
+          <Route path='/shop' element={<Shop />}/>
+          <Route path='/cart' element={<Cart />}/>
       </Routes>      
     </BrowserRouter>
   )
