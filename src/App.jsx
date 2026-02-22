@@ -1,24 +1,14 @@
-import { BrowserRouter, Routes, Route } from 'react-router';
-import './App.css'
-import NavBar from './NavBar';
-import Home from "./Home"
-import Shop from "./Shop"
-import Cart from "./Cart"
-
+import { Link, Outlet } from "react-router";
+import "./App.css";
+import Navbar from "./Navbar";
 
 const App = () => {
-
   return (
-    <BrowserRouter>
-      <NavBar />
+    <>
+      <Link to='/Navbar'><Navbar /></Link>
+      <h1>This is a home page</h1>
+    </>
+  );
+};
 
-      <Routes> 
-          <Route path='/Home' element={<Home />}/>
-          <Route path='/shop' element={<Shop />}/>
-          <Route path='/cart' element={<Cart />}/>
-      </Routes>      
-    </BrowserRouter>
-  )
-}
-
-export default App
+export default App;
