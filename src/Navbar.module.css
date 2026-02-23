@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    place-items: normal;
+}
+
+
+.navbar {
+    width: 100vw;
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo {
+    all: unset;
+    font-size: 2rem;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.logo:hover {
+    color: inherit;
+}
+
+.nav {
+
+}
+
+.listItems {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-size: 1rem;
+}
+
+.navLinks {
+    
+}
