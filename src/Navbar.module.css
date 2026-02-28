@@ -1,15 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
     height: 100vh;
     width: 100vw;
     place-items: normal;
 }
-
 
 .navbar {
     width: 100vw;
@@ -19,6 +13,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
+    background-color: #0F172B;
 }
 
 .logo {
@@ -36,13 +31,15 @@ body {
 
 }
 
-.listItems {
+.list {
     list-style: none;
     display: flex;
     gap: 2rem;
     font-size: 1rem;
+    font-family: sans-serif;
 }
 
-.navLinks {
-    
+.item {
+    color: white;
+    align-items: center;
 }
