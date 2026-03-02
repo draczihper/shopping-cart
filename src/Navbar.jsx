@@ -9,6 +9,7 @@ const Navbar = () => {
       <nav>
         <ul className={styles.list}>
           <li>
+            <img src="" alt="" />
             <Link className={styles.item} to='/'>Home</Link>
           </li>
           <li>
@@ -16,6 +17,7 @@ const Navbar = () => {
             <Link className={styles.item} to='/Shop'>Shop</Link>
           </li>
           <li>
+            <img src="" alt="" />
             <Link className={styles.item} to='/Cart'>Cart</Link>
           </li>
         </ul>
