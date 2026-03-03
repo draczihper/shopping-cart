@@ -43,3 +43,7 @@ body {
     color: white;
     align-items: center;
 }
+
+.item:hover {
+    color: white;
+}
