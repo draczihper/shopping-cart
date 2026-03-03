@@ -13,8 +13,7 @@ const Navbar = () => {
             <Link className={styles.item} to='/'>Home</Link>
           </li>
           <li>
-            <img src={shopIcon} alt="" />
-            <Link className={styles.item} to='/Shop'>Shop</Link>
+            <Link className={styles.item} to='/Shop'><img src={shopIcon} alt="" />Shop</Link>
           </li>
           <li>
             <img src="" alt="" />
